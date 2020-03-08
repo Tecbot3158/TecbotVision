@@ -13,13 +13,16 @@ Windows
 <p>
 for windows, run in the command prompt:
 
-	chameleon-vision-2.3.1-RELEASE.jar
+	java -jar chameleon-vision-2.3.1-RELEASE.jar
 <p>
 Linux / Mac
 for linux / mac, run in the terminal:
 	
 	$ sudo java -jar chameleon-vision-X.X.X-RELEASE.jar
 <p>
+	
+<h1>Kill all java processes running on linux / Mac</h1>
+<code>sudo pkill -9 java</code>
 
 
 **<h2>Command-Line Arguments</h2>**
