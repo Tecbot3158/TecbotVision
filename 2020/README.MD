@@ -1,11 +1,16 @@
 
 <h1>WARNING: WILL NOT WORK IF THERE ARE NO CAMERAS CONNECTED</h1>
 <p>
-**<h1>Requirements</h1>**
-To run the chameleon server, you must have JDK 12 or higher installed on your co-processor.**[Download JDK 12 here.](https://bell-sw.com/pages/liberica_install_guide-12.0.2/)**
+<h1>Requirements</h1>
+To run the chameleon server, you must have JDK 12 or higher installed on your co-processor.
+
+[Download JDK 12 here.](https://bell-sw.com/pages/liberica_install_guide-12.0.2)
+
+
 <p>
-**<h1>Running the server</h1>**
+<h1>Running the server</h1>
 **Windows**
+<p>
 for windows, run in the command prompt:
 
 	chameleon-vision-2.3.1-RELEASE.jar
@@ -48,10 +53,11 @@ You can use the tecbotVision.py python script to put certain data on the tecbotV
 Use <code>ifconfig</code> (mac / linux) and <code>ipconfig</code> to get the ip of this computer.
 <p>
 To test that the network tables server is running, use the "global_listener.py" python script and execute it. This script will detect global variable changes in all tables running in the NetworkTables server.
-Repo directory: TecbotVision/2020/python_scripts/global_listener.py
-command: py global_listener.py
+<p>Repo directory: TecbotVision/2020/python_scripts/global_listener.py
+<p>command: py global_listener.py
+<p>
 <p>
 Another test you can run is robot_example.py . This script will put an incrementing value periodically on the SmartDashboard table in the NetworkTables server.
-Repo directory: TecbotVision/2020/python_scripts/robot_example.py
-command: py robot_example.py
+<p>Repo directory: TecbotVision/2020/python_scripts/robot_example.py
+<p>command: py robot_example.py
 
