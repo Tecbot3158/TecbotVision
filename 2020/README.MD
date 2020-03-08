@@ -9,13 +9,13 @@ To run the chameleon server, you must have JDK 12 or higher installed on your co
 
 <p>
 <h1>Running the server</h1>
-**Windows**
+Windows
 <p>
 for windows, run in the command prompt:
 
 	chameleon-vision-2.3.1-RELEASE.jar
 <p>
-**Linux / Mac**
+Linux / Mac
 for linux / mac, run in the terminal:
 	
 	$ sudo java -jar chameleon-vision-X.X.X-RELEASE.jar
@@ -52,12 +52,12 @@ You can use the tecbotVision.py python script to put certain data on the tecbotV
 **<h2>NetworkTables Server testing</h2>**
 Use <code>ifconfig</code> (mac / linux) and <code>ipconfig</code> to get the ip of this computer.
 <p>
-To test that the network tables server is running, use the "global_listener.py" python script and execute it. This script will detect global variable changes in all tables running in the NetworkTables server.
-<p>Repo directory: TecbotVision/2020/python_scripts/global_listener.py
-<p>command: py global_listener.py
+1. To test that the network tables server is running, use the "global_listener.py" python script and execute it. This script will detect 	global variable changes in all tables running in the NetworkTables server.
+	<p>Repo directory: TecbotVision/2020/python_scripts/global_listener.py
+	<p>command: py global_listener.py
 <p>
 <p>
-Another test you can run is robot_example.py . This script will put an incrementing value periodically on the SmartDashboard table in the NetworkTables server.
-<p>Repo directory: TecbotVision/2020/python_scripts/robot_example.py
-<p>command: py robot_example.py
+2. Another test you can run is robot_example.py . This script will put an incrementing value periodically on the SmartDashboard table in 	the NetworkTables server.
+	<p>Repo directory: TecbotVision/2020/python_scripts/robot_example.py
+	<p>command: py robot_example.py
 
