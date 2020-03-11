@@ -1,5 +1,9 @@
 
 <h1>WARNING: WILL NOT WORK IF THERE ARE NO CAMERAS CONNECTED</h1>
+<h2>DEFAULT IP w/port: 
+	
+	
+[http://10.25.229.116:5800](http://10.25.229.116:5800)</h2>
 <p>
 <h1>Requirements</h1>
 To run the chameleon server, you must have JDK 12 or higher installed on your co-processor.
